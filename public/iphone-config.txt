@@ -1,1 +1,153 @@
-vmess://eyJhZGQiOiJkb3NoYW4uaXIiLCJwcyI6Imhpc2Jvcm8gNCIsInNjeSI6ImF1dG8iLCJ0eXBlIjoiIiwic25pIjoiIiwicGF0aCI6Ii8iLCJwb3J0IjoyMDUzLCJ2IjoyLCJob3N0IjoiIiwidGxzIjoidGxzIiwiaWQiOiJlMGU4NTU2Ny05M2I1LTRlNjYtYTE3Ni01Mjg5Y2UxZmEzNmIiLCJuZXQiOiJ3cyJ9
+#trojan://1@20.23.04.04:12#0/3000GB_Remain:3650days 
+
+# Hiddify auto ip: 5.211.44.84 IR 197207 MCI  fullname=Mobile Communication Company of Iran PLC default:mci
+
+####################################
+## direct  51.68.196.157.sslip.io  http:80
+####################################
+
+# http_WS_direct_vmess 51.68.196.157.sslip.io
+vmess://eyJ2IjogIjIiLCAicHMiOiAiaHR0cF9XU19kaXJlY3Rfdm1lc3NfNTEuNjguMTk2LjE1Ny5zc2xpcC5pbyIsICJhZGQiOiAiNTEuNjguMTk2LjE1Ny5zc2xpcC5pbyIsICJwb3J0IjogODAsICJpZCI6ICJhMTY4ODE5Zi1hZjVmLTRhMzgtODQ1My0wZmVjODU2NTNmM2YiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAiNTEuNjguMTk2LjE1Ny5zc2xpcC5pbyIsICJwYXRoIjogIi9uSVFIUFFPZGpkc3o2NTRFdklEQ1kiLCAidGxzIjogIiIsICJzbmkiOiAiNTEuNjguMTk2LjE1Ny5zc2xpcC5pbyIsICJmcCI6ICJjaHJvbWUifQ==
+
+# http_tcp_direct_vmess 51.68.196.157.sslip.io
+vmess://eyJ2IjogIjIiLCAicHMiOiAiaHR0cF90Y3BfZGlyZWN0X3ZtZXNzXzUxLjY4LjE5Ni4xNTcuc3NsaXAuaW8iLCAiYWRkIjogIjUxLjY4LjE5Ni4xNTcuc3NsaXAuaW8iLCAicG9ydCI6IDgwLCAiaWQiOiAiYTE2ODgxOWYtYWY1Zi00YTM4LTg0NTMtMGZlYzg1NjUzZjNmIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAiaHR0cCIsICJob3N0IjogIjUxLjY4LjE5Ni4xNTcuc3NsaXAuaW8iLCAicGF0aCI6ICIvbklRSFBRT2RqZHN6NjNWRU56TlFYIiwgInRscyI6ICIiLCAic25pIjogIjUxLjY4LjE5Ni4xNTcuc3NsaXAuaW8iLCAiZnAiOiAiY2hyb21lIn0=
+####################################
+## direct  51.68.196.157.sslip.io  tls:443
+####################################
+
+# tls_h2_XTLS_direct_vless 51.68.196.157.sslip.io
+vless://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157.sslip.io:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=51.68.196.157.sslip.io&type=tcp&alpn=h2&host=51.68.196.157.sslip.io&encryption=none&fp=chrome&headerType=None#tls_h2_XTLS_direct_vless_51.68.196.157.sslip.io
+
+# tls_h2_WS_direct_vless 51.68.196.157.sslip.io
+vless://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157.sslip.io:443?security=tls&sni=51.68.196.157.sslip.io&type=ws&alpn=h2&path=/TyQiC0H54EvIDCY&host=51.68.196.157.sslip.io&encryption=none&fp=chrome&headerType=None#tls_h2_WS_direct_vless_51.68.196.157.sslip.io
+
+# tls_h2_WS_direct_trojan 51.68.196.157.sslip.io
+trojan://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157.sslip.io:443?security=tls&sni=51.68.196.157.sslip.io&type=ws&alpn=h2&path=/Vhzhp01ww6axttD54EvIDCY&host=51.68.196.157.sslip.io&fp=chrome&headerType=None#tls_h2_WS_direct_trojan_51.68.196.157.sslip.io
+
+# tls_h2_WS_direct_vmess 51.68.196.157.sslip.io
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX1dTX2RpcmVjdF92bWVzc181MS42OC4xOTYuMTU3LnNzbGlwLmlvIiwgImFkZCI6ICI1MS42OC4xOTYuMTU3LnNzbGlwLmlvIiwgInBvcnQiOiA0NDMsICJpZCI6ICJhMTY4ODE5Zi1hZjVmLTRhMzgtODQ1My0wZmVjODU2NTNmM2YiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAiNTEuNjguMTk2LjE1Ny5zc2xpcC5pbyIsICJwYXRoIjogIi9uSVFIUFFPZGpkc3o2NTRFdklEQ1kiLCAidGxzIjogInRscyIsICJzbmkiOiAiNTEuNjguMTk2LjE1Ny5zc2xpcC5pbyIsICJmcCI6ICJjaHJvbWUifQ==
+
+# tls_h2_tcp_direct_vless 51.68.196.157.sslip.io
+vless://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157.sslip.io:443?security=tls&sni=51.68.196.157.sslip.io&type=tcp&alpn=h2&path=/TyQiC0H3VENzNQX&host=51.68.196.157.sslip.io&encryption=none&fp=chrome&headerType=None#tls_h2_tcp_direct_vless_51.68.196.157.sslip.io
+
+# tls_h2_tcp_direct_trojan 51.68.196.157.sslip.io
+trojan://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157.sslip.io:443?security=tls&sni=51.68.196.157.sslip.io&type=tcp&alpn=h2&path=/Vhzhp01ww6axttD3VENzNQX&host=51.68.196.157.sslip.io&fp=chrome&headerType=None#tls_h2_tcp_direct_trojan_51.68.196.157.sslip.io
+
+# tls_h2_tcp_direct_vmess 51.68.196.157.sslip.io
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX3RjcF9kaXJlY3Rfdm1lc3NfNTEuNjguMTk2LjE1Ny5zc2xpcC5pbyIsICJhZGQiOiAiNTEuNjguMTk2LjE1Ny5zc2xpcC5pbyIsICJwb3J0IjogNDQzLCAiaWQiOiAiYTE2ODgxOWYtYWY1Zi00YTM4LTg0NTMtMGZlYzg1NjUzZjNmIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAiaHR0cCIsICJob3N0IjogIjUxLjY4LjE5Ni4xNTcuc3NsaXAuaW8iLCAicGF0aCI6ICIvbklRSFBRT2RqZHN6NjNWRU56TlFYIiwgInRscyI6ICJ0bHMiLCAic25pIjogIjUxLjY4LjE5Ni4xNTcuc3NsaXAuaW8iLCAiZnAiOiAiY2hyb21lIn0=
+
+# tls_h2_grpc_direct_vless 51.68.196.157.sslip.io
+vless://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157.sslip.io:443?security=tls&sni=51.68.196.157.sslip.io&type=grpc&alpn=h2&path=TyQiC0HQFjYSuzKOat1rdN&host=51.68.196.157.sslip.io&serviceName=TyQiC0HQFjYSuzKOat1rdN&mode=multi&encryption=none&fp=chrome&headerType=None#tls_h2_grpc_direct_vless_51.68.196.157.sslip.io
+
+# tls_h2_grpc_direct_trojan 51.68.196.157.sslip.io
+trojan://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157.sslip.io:443?security=tls&sni=51.68.196.157.sslip.io&type=grpc&alpn=h2&path=Vhzhp01ww6axttDQFjYSuzKOat1rdN&host=51.68.196.157.sslip.io&serviceName=Vhzhp01ww6axttDQFjYSuzKOat1rdN&mode=multi&fp=chrome&headerType=None#tls_h2_grpc_direct_trojan_51.68.196.157.sslip.io
+
+# tls_h2_grpc_direct_vmess 51.68.196.157.sslip.io
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX2dycGNfZGlyZWN0X3ZtZXNzXzUxLjY4LjE5Ni4xNTcuc3NsaXAuaW8iLCAiYWRkIjogIjUxLjY4LjE5Ni4xNTcuc3NsaXAuaW8iLCAicG9ydCI6IDQ0MywgImlkIjogImExNjg4MTlmLWFmNWYtNGEzOC04NDUzLTBmZWM4NTY1M2YzZiIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJtdWx0aSIsICJob3N0IjogIjUxLjY4LjE5Ni4xNTcuc3NsaXAuaW8iLCAicGF0aCI6ICJuSVFIUFFPZGpkc3o2UUZqWVN1ektPYXQxcmROIiwgInRscyI6ICJ0bHMiLCAic25pIjogIjUxLjY4LjE5Ni4xNTcuc3NsaXAuaW8iLCAiZnAiOiAiY2hyb21lIn0=
+
+# tls_XTLS_direct_vless 51.68.196.157.sslip.io
+vless://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157.sslip.io:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=51.68.196.157.sslip.io&type=tcp&alpn=http/1.1&host=51.68.196.157.sslip.io&encryption=none&fp=chrome&headerType=None#tls_XTLS_direct_vless_51.68.196.157.sslip.io
+
+# tls_WS_direct_vless 51.68.196.157.sslip.io
+vless://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157.sslip.io:443?security=tls&sni=51.68.196.157.sslip.io&type=ws&alpn=http/1.1&path=/TyQiC0H54EvIDCY&host=51.68.196.157.sslip.io&encryption=none&fp=chrome&headerType=None#tls_WS_direct_vless_51.68.196.157.sslip.io
+
+# tls_WS_direct_trojan 51.68.196.157.sslip.io
+trojan://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157.sslip.io:443?security=tls&sni=51.68.196.157.sslip.io&type=ws&alpn=http/1.1&path=/Vhzhp01ww6axttD54EvIDCY&host=51.68.196.157.sslip.io&fp=chrome&headerType=None#tls_WS_direct_trojan_51.68.196.157.sslip.io
+
+# tls_WS_direct_vmess 51.68.196.157.sslip.io
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX1dTX2RpcmVjdF92bWVzc181MS42OC4xOTYuMTU3LnNzbGlwLmlvIiwgImFkZCI6ICI1MS42OC4xOTYuMTU3LnNzbGlwLmlvIiwgInBvcnQiOiA0NDMsICJpZCI6ICJhMTY4ODE5Zi1hZjVmLTRhMzgtODQ1My0wZmVjODU2NTNmM2YiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAiNTEuNjguMTk2LjE1Ny5zc2xpcC5pbyIsICJwYXRoIjogIi9uSVFIUFFPZGpkc3o2NTRFdklEQ1kiLCAidGxzIjogInRscyIsICJzbmkiOiAiNTEuNjguMTk2LjE1Ny5zc2xpcC5pbyIsICJmcCI6ICJjaHJvbWUifQ==
+
+# tls_tcp_direct_vless 51.68.196.157.sslip.io
+vless://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157.sslip.io:443?security=tls&sni=51.68.196.157.sslip.io&type=tcp&alpn=http/1.1&path=/TyQiC0H3VENzNQX&host=51.68.196.157.sslip.io&encryption=none&fp=chrome&headerType=None#tls_tcp_direct_vless_51.68.196.157.sslip.io
+
+# tls_tcp_direct_trojan 51.68.196.157.sslip.io
+trojan://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157.sslip.io:443?security=tls&sni=51.68.196.157.sslip.io&type=tcp&alpn=http/1.1&path=/Vhzhp01ww6axttD3VENzNQX&host=51.68.196.157.sslip.io&fp=chrome&headerType=None#tls_tcp_direct_trojan_51.68.196.157.sslip.io
+
+# tls_tcp_direct_vmess 51.68.196.157.sslip.io
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX3RjcF9kaXJlY3Rfdm1lc3NfNTEuNjguMTk2LjE1Ny5zc2xpcC5pbyIsICJhZGQiOiAiNTEuNjguMTk2LjE1Ny5zc2xpcC5pbyIsICJwb3J0IjogNDQzLCAiaWQiOiAiYTE2ODgxOWYtYWY1Zi00YTM4LTg0NTMtMGZlYzg1NjUzZjNmIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAiaHR0cCIsICJob3N0IjogIjUxLjY4LjE5Ni4xNTcuc3NsaXAuaW8iLCAicGF0aCI6ICIvbklRSFBRT2RqZHN6NjNWRU56TlFYIiwgInRscyI6ICJ0bHMiLCAic25pIjogIjUxLjY4LjE5Ni4xNTcuc3NsaXAuaW8iLCAiZnAiOiAiY2hyb21lIn0=
+
+# tls_grpc_direct_vless 51.68.196.157.sslip.io
+vless://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157.sslip.io:443?security=tls&sni=51.68.196.157.sslip.io&type=grpc&alpn=http/1.1&path=TyQiC0HQFjYSuzKOat1rdN&host=51.68.196.157.sslip.io&serviceName=TyQiC0HQFjYSuzKOat1rdN&mode=multi&encryption=none&fp=chrome&headerType=None#tls_grpc_direct_vless_51.68.196.157.sslip.io
+
+# tls_grpc_direct_trojan 51.68.196.157.sslip.io
+trojan://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157.sslip.io:443?security=tls&sni=51.68.196.157.sslip.io&type=grpc&alpn=http/1.1&path=Vhzhp01ww6axttDQFjYSuzKOat1rdN&host=51.68.196.157.sslip.io&serviceName=Vhzhp01ww6axttDQFjYSuzKOat1rdN&mode=multi&fp=chrome&headerType=None#tls_grpc_direct_trojan_51.68.196.157.sslip.io
+
+# tls_grpc_direct_vmess 51.68.196.157.sslip.io
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2dycGNfZGlyZWN0X3ZtZXNzXzUxLjY4LjE5Ni4xNTcuc3NsaXAuaW8iLCAiYWRkIjogIjUxLjY4LjE5Ni4xNTcuc3NsaXAuaW8iLCAicG9ydCI6IDQ0MywgImlkIjogImExNjg4MTlmLWFmNWYtNGEzOC04NDUzLTBmZWM4NTY1M2YzZiIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogImdycGMiLCAidHlwZSI6ICJtdWx0aSIsICJob3N0IjogIjUxLjY4LjE5Ni4xNTcuc3NsaXAuaW8iLCAicGF0aCI6ICJuSVFIUFFPZGpkc3o2UUZqWVN1ektPYXQxcmROIiwgInRscyI6ICJ0bHMiLCAic25pIjogIjUxLjY4LjE5Ni4xNTcuc3NsaXAuaW8iLCAiZnAiOiAiY2hyb21lIn0=
+
+
+
+
+####################################
+## fake  fake domain  http:80
+####################################
+
+# http_WS_direct_vmess fake domain
+vmess://eyJ2IjogIjIiLCAicHMiOiAiaHR0cF9XU19kaXJlY3Rfdm1lc3NfZmFrZSBkb21haW4iLCAiYWRkIjogIjUxLjY4LjE5Ni4xNTciLCAicG9ydCI6IDgwLCAiaWQiOiAiYTE2ODgxOWYtYWY1Zi00YTM4LTg0NTMtMGZlYzg1NjUzZjNmIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAid3MiLCAidHlwZSI6IG51bGwsICJob3N0IjogInNwZWVkdGVzdC5uZXQiLCAicGF0aCI6ICIvbklRSFBRT2RqZHN6NjU0RXZJRENZIiwgInRscyI6ICIiLCAic25pIjogInNwZWVkdGVzdC5uZXQiLCAiZnAiOiAiY2hyb21lIn0=
+
+# http_tcp_direct_vmess fake domain
+vmess://eyJ2IjogIjIiLCAicHMiOiAiaHR0cF90Y3BfZGlyZWN0X3ZtZXNzX2Zha2UgZG9tYWluIiwgImFkZCI6ICI1MS42OC4xOTYuMTU3IiwgInBvcnQiOiA4MCwgImlkIjogImExNjg4MTlmLWFmNWYtNGEzOC04NDUzLTBmZWM4NTY1M2YzZiIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogInRjcCIsICJ0eXBlIjogImh0dHAiLCAiaG9zdCI6ICJzcGVlZHRlc3QubmV0IiwgInBhdGgiOiAiL25JUUhQUU9kamRzejYzVkVOek5RWCIsICJ0bHMiOiAiIiwgInNuaSI6ICJzcGVlZHRlc3QubmV0IiwgImZwIjogImNocm9tZSJ9
+####################################
+## fake  fake domain  tls:443
+####################################
+
+# tls_h2_XTLS_direct_vless fake domain
+vless://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=speedtest.net&type=tcp&alpn=h2&host=speedtest.net&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_h2_XTLS_direct_vless_fake domain
+
+# tls_h2_WS_direct_vless fake domain
+vless://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157:443?security=tls&sni=speedtest.net&type=ws&alpn=h2&path=/TyQiC0H54EvIDCY&host=speedtest.net&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_h2_WS_direct_vless_fake domain
+
+# tls_h2_WS_direct_trojan fake domain
+trojan://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157:443?security=tls&sni=speedtest.net&type=ws&alpn=h2&path=/Vhzhp01ww6axttD54EvIDCY&host=speedtest.net&fp=chrome&headerType=None&allowInsecure=true#tls_h2_WS_direct_trojan_fake domain
+
+# tls_h2_WS_direct_vmess fake domain
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX1dTX2RpcmVjdF92bWVzc19mYWtlIGRvbWFpbiIsICJhZGQiOiAiNTEuNjguMTk2LjE1NyIsICJwb3J0IjogNDQzLCAiaWQiOiAiYTE2ODgxOWYtYWY1Zi00YTM4LTg0NTMtMGZlYzg1NjUzZjNmIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAid3MiLCAidHlwZSI6IG51bGwsICJob3N0IjogInNwZWVkdGVzdC5uZXQiLCAicGF0aCI6ICIvbklRSFBRT2RqZHN6NjU0RXZJRENZIiwgInRscyI6ICJ0bHMiLCAic25pIjogInNwZWVkdGVzdC5uZXQiLCAiZnAiOiAiY2hyb21lIn0=
+
+# tls_h2_tcp_direct_vless fake domain
+vless://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157:443?security=tls&sni=speedtest.net&type=tcp&alpn=h2&path=/TyQiC0H3VENzNQX&host=speedtest.net&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_h2_tcp_direct_vless_fake domain
+
+# tls_h2_tcp_direct_trojan fake domain
+trojan://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157:443?security=tls&sni=speedtest.net&type=tcp&alpn=h2&path=/Vhzhp01ww6axttD3VENzNQX&host=speedtest.net&fp=chrome&headerType=None&allowInsecure=true#tls_h2_tcp_direct_trojan_fake domain
+
+# tls_h2_tcp_direct_vmess fake domain
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX3RjcF9kaXJlY3Rfdm1lc3NfZmFrZSBkb21haW4iLCAiYWRkIjogIjUxLjY4LjE5Ni4xNTciLCAicG9ydCI6IDQ0MywgImlkIjogImExNjg4MTlmLWFmNWYtNGEzOC04NDUzLTBmZWM4NTY1M2YzZiIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogInRjcCIsICJ0eXBlIjogImh0dHAiLCAiaG9zdCI6ICJzcGVlZHRlc3QubmV0IiwgInBhdGgiOiAiL25JUUhQUU9kamRzejYzVkVOek5RWCIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJzcGVlZHRlc3QubmV0IiwgImZwIjogImNocm9tZSJ9
+
+# tls_h2_grpc_direct_vless fake domain
+vless://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157:443?security=tls&sni=speedtest.net&type=grpc&alpn=h2&path=TyQiC0HQFjYSuzKOat1rdN&host=speedtest.net&serviceName=TyQiC0HQFjYSuzKOat1rdN&mode=multi&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_h2_grpc_direct_vless_fake domain
+
+# tls_h2_grpc_direct_trojan fake domain
+trojan://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157:443?security=tls&sni=speedtest.net&type=grpc&alpn=h2&path=Vhzhp01ww6axttDQFjYSuzKOat1rdN&host=speedtest.net&serviceName=Vhzhp01ww6axttDQFjYSuzKOat1rdN&mode=multi&fp=chrome&headerType=None&allowInsecure=true#tls_h2_grpc_direct_trojan_fake domain
+
+# tls_h2_grpc_direct_vmess fake domain
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2gyX2dycGNfZGlyZWN0X3ZtZXNzX2Zha2UgZG9tYWluIiwgImFkZCI6ICI1MS42OC4xOTYuMTU3IiwgInBvcnQiOiA0NDMsICJpZCI6ICJhMTY4ODE5Zi1hZjVmLTRhMzgtODQ1My0wZmVjODU2NTNmM2YiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJncnBjIiwgInR5cGUiOiAibXVsdGkiLCAiaG9zdCI6ICJzcGVlZHRlc3QubmV0IiwgInBhdGgiOiAibklRSFBRT2RqZHN6NlFGallTdXpLT2F0MXJkTiIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJzcGVlZHRlc3QubmV0IiwgImZwIjogImNocm9tZSJ9
+
+# tls_XTLS_direct_vless fake domain
+vless://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157:443?flow=xtls-rprx-vision&security=tls&type=tcp&sni=speedtest.net&type=tcp&alpn=http/1.1&host=speedtest.net&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_XTLS_direct_vless_fake domain
+
+# tls_WS_direct_vless fake domain
+vless://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157:443?security=tls&sni=speedtest.net&type=ws&alpn=http/1.1&path=/TyQiC0H54EvIDCY&host=speedtest.net&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_WS_direct_vless_fake domain
+
+# tls_WS_direct_trojan fake domain
+trojan://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157:443?security=tls&sni=speedtest.net&type=ws&alpn=http/1.1&path=/Vhzhp01ww6axttD54EvIDCY&host=speedtest.net&fp=chrome&headerType=None&allowInsecure=true#tls_WS_direct_trojan_fake domain
+
+# tls_WS_direct_vmess fake domain
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX1dTX2RpcmVjdF92bWVzc19mYWtlIGRvbWFpbiIsICJhZGQiOiAiNTEuNjguMTk2LjE1NyIsICJwb3J0IjogNDQzLCAiaWQiOiAiYTE2ODgxOWYtYWY1Zi00YTM4LTg0NTMtMGZlYzg1NjUzZjNmIiwgImFpZCI6ICIwIiwgInNjeSI6ICJjaGFjaGEyMC1wb2x5MTMwNSIsICJuZXQiOiAid3MiLCAidHlwZSI6IG51bGwsICJob3N0IjogInNwZWVkdGVzdC5uZXQiLCAicGF0aCI6ICIvbklRSFBRT2RqZHN6NjU0RXZJRENZIiwgInRscyI6ICJ0bHMiLCAic25pIjogInNwZWVkdGVzdC5uZXQiLCAiZnAiOiAiY2hyb21lIn0=
+
+# tls_tcp_direct_vless fake domain
+vless://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157:443?security=tls&sni=speedtest.net&type=tcp&alpn=http/1.1&path=/TyQiC0H3VENzNQX&host=speedtest.net&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_tcp_direct_vless_fake domain
+
+# tls_tcp_direct_trojan fake domain
+trojan://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157:443?security=tls&sni=speedtest.net&type=tcp&alpn=http/1.1&path=/Vhzhp01ww6axttD3VENzNQX&host=speedtest.net&fp=chrome&headerType=None&allowInsecure=true#tls_tcp_direct_trojan_fake domain
+
+# tls_tcp_direct_vmess fake domain
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX3RjcF9kaXJlY3Rfdm1lc3NfZmFrZSBkb21haW4iLCAiYWRkIjogIjUxLjY4LjE5Ni4xNTciLCAicG9ydCI6IDQ0MywgImlkIjogImExNjg4MTlmLWFmNWYtNGEzOC04NDUzLTBmZWM4NTY1M2YzZiIsICJhaWQiOiAiMCIsICJzY3kiOiAiY2hhY2hhMjAtcG9seTEzMDUiLCAibmV0IjogInRjcCIsICJ0eXBlIjogImh0dHAiLCAiaG9zdCI6ICJzcGVlZHRlc3QubmV0IiwgInBhdGgiOiAiL25JUUhQUU9kamRzejYzVkVOek5RWCIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJzcGVlZHRlc3QubmV0IiwgImZwIjogImNocm9tZSJ9
+
+# tls_grpc_direct_vless fake domain
+vless://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157:443?security=tls&sni=speedtest.net&type=grpc&alpn=http/1.1&path=TyQiC0HQFjYSuzKOat1rdN&host=speedtest.net&serviceName=TyQiC0HQFjYSuzKOat1rdN&mode=multi&encryption=none&fp=chrome&headerType=None&allowInsecure=true#tls_grpc_direct_vless_fake domain
+
+# tls_grpc_direct_trojan fake domain
+trojan://a168819f-af5f-4a38-8453-0fec85653f3f@51.68.196.157:443?security=tls&sni=speedtest.net&type=grpc&alpn=http/1.1&path=Vhzhp01ww6axttDQFjYSuzKOat1rdN&host=speedtest.net&serviceName=Vhzhp01ww6axttDQFjYSuzKOat1rdN&mode=multi&fp=chrome&headerType=None&allowInsecure=true#tls_grpc_direct_trojan_fake domain
+
+# tls_grpc_direct_vmess fake domain
+vmess://eyJ2IjogIjIiLCAicHMiOiAidGxzX2dycGNfZGlyZWN0X3ZtZXNzX2Zha2UgZG9tYWluIiwgImFkZCI6ICI1MS42OC4xOTYuMTU3IiwgInBvcnQiOiA0NDMsICJpZCI6ICJhMTY4ODE5Zi1hZjVmLTRhMzgtODQ1My0wZmVjODU2NTNmM2YiLCAiYWlkIjogIjAiLCAic2N5IjogImNoYWNoYTIwLXBvbHkxMzA1IiwgIm5ldCI6ICJncnBjIiwgInR5cGUiOiAibXVsdGkiLCAiaG9zdCI6ICJzcGVlZHRlc3QubmV0IiwgInBhdGgiOiAibklRSFBRT2RqZHN6NlFGallTdXpLT2F0MXJkTiIsICJ0bHMiOiAidGxzIiwgInNuaSI6ICJzcGVlZHRlc3QubmV0IiwgImZwIjogImNocm9tZSJ9
+
