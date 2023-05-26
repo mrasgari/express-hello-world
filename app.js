@@ -1,3 +1,5 @@
+vmess://eyJhZGQiOiI1LjE2MS4xNDQuOTUiLCJwcyI6IkYtejliNjRmaDkiLCJzY3kiOiJhdXRvIiwidHlwZSI6Im5vbmUiLCJzbmkiOiIiLCJwYXRoIjoiIiwicG9ydCI6NDAwODMsInYiOjIsImhvc3QiOiIiLCJ0bHMiOiIiLCJpZCI6IjExMzU3YmY0LWMwZGItNDljMy05YjMxLTRlZjg4ZjYwNWQxMCIsIm5ldCI6ImtjcCJ9
+
 const express = require('express')
 const path = require("path");
 const app = express()
